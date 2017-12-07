@@ -10,3 +10,12 @@
  * Interface for trim
  * ----------------------------------------------------------
  */
+ #ifndef ___TRIM_H
+ #define ___TRIM_H
+ #include <stdio.h>
+ #include <string.h>
+ #include <stdbool.h>
+ #define STRLEN 17
+ void trim(const char* source, char* trimmed_string);
+
+ #endif
